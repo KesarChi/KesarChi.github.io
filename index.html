@@ -537,7 +537,7 @@ mjx-container[display="true"] + br {
                         <div class="label">Categories</div>
                     </a>
                     <a class="item" href="/archives">
-                        <div class="number">1</div>
+                        <div class="number">2</div>
                         <div class="label">Posts</div>
                     </a>
                 </div>
@@ -562,24 +562,28 @@ mjx-container[display="true"] + br {
                 
 
                 <h3 class="home-article-title">
-                    <a href="/2023/05/28/%E5%B9%BF%E4%B9%89%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/">
-                        广义线性模型
+                    <a href="/2023/06/03/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/">
+                        常用模型评价指标
                     </a>
                 </h3>
 
                 <div class="home-article-content markdown-body">
                     
-                           广义线性模型是指：​    其中 称作“联系函数”。
-​    为什么要加入一个联系函数：因为广义线性模型除了让预测值逼近y，还应该能够逼近y的衍生物，比如假设输出是在指数尺度上变化，那么就可将输出标记的对数作为线性模型逼近的目标，即：，这就是...
+                        I. 分类指标Confusion Matrix
+
+
+TP：预测正确，真实类别与模型预测都为Positive
+FP：预测错误，模型预测为Positive，但真实类别为Negtive
+FN：预测错误，模型预测为Negtive，但真实类别为Positive...
                     
                 </div>
 
                 <div class="home-article-meta-info-container">
     <div class="home-article-meta-info">
         <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Sun May 28 2023 08:48:10 GMT+0800">
+            <span class="home-article-date" data-date="Sat Jun 03 2023 18:00:00 GMT+0800">
                 
-                    2023-05-28
+                    2023-06-03
                 
             </span>
         </span>
@@ -603,7 +607,7 @@ mjx-container[display="true"] + br {
                     
                         <li>
                             
-                            <a href="/tags/Machine-Learning/">Machine Learning</a>&nbsp;
+                            <a href="/tags/Machine-Learning/">Machine-Learning</a>&nbsp;
                         </li>
                     
                 </ul>
@@ -611,7 +615,87 @@ mjx-container[display="true"] + br {
         
     </div>
 
-    <a href="/2023/05/28/%E5%B9%BF%E4%B9%89%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/">Read more<span class="seo-reader-text">广义线性模型</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+    <a href="/2023/06/03/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87/">Read more<span class="seo-reader-text">常用模型评价指标</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2023/06/03/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/">
+                        线性回归
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        I. 基础模型定义
+
+用向量表示：
+
+
+
+因此线性回归可重写为：
+
+
+损失函数
+
+这里以MSE为例，但实际上LR应该用交叉熵，因为MSE会出现梯度消失，并且难以求解
+
+
+
+改写为矩阵形式：
+
+
+II. 线性回归变形Lasso
+
+Lasso与线性回归的...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Sat Jun 03 2023 09:49:30 GMT+0800">
+                
+                    2023-06-03
+                
+            </span>
+        </span>
+        
+            <span class="home-article-category"><i class="fa-solid fa-folders"></i></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/categories/Computer-Science/">Computer-Science</a>&nbsp;
+                        </li>
+                    
+                    
+                </ul>
+            </span>
+        
+        
+            <span class="home-article-tag">
+                <i class="fa-solid fa-tags"></i>&nbsp;
+                <ul>
+                    
+                        <li>
+                            
+                            <a href="/tags/Machine-Learning/">Machine-Learning</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            </span>
+        
+    </div>
+
+    <a href="/2023/06/03/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B/">Read more<span class="seo-reader-text">线性回归</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
 </div>
 
             </li>
