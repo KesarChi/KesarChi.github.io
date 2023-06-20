@@ -902,6 +902,9 @@
 </ul>
 <p> <img lazyload="" src="/images/loading.svg" data-src="/imgs/cnn13.png"></p>
 <p> <img lazyload="" src="/images/loading.svg" data-src="/imgs/cnn14.png"></p>
+<h2 id="VII-code"><a href="#VII-code" class="headerlink" title="VII. code"></a>VII. code</h2><p>**LeNet: **<a class="link" href="https://github.com/KesarChi/blogCode/tree/main/DeepLearning/CNN/LeNet">blogCode/DeepLearning/CNN/LeNet at main · KesarChi/blogCode · GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>**AlexNet: **<a class="link" href="https://github.com/KesarChi/blogCode/tree/main/DeepLearning/CNN/AlexNet">blogCode/DeepLearning/CNN/AlexNet at main · KesarChi/blogCode · GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<p>**VGGNet16: **<a class="link" href="https://github.com/KesarChi/blogCode/tree/main/DeepLearning/CNN/VGGNet">blogCode/DeepLearning/CNN/VGGNet at main · KesarChi/blogCode · GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
       <categories>
         <category>Computer-Science</category>
